@@ -1,1 +1,333 @@
-Pages
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilson Vieira | DevOps Engineer & Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Devicon for Tech Logos -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glassmorphism">
+        <div class="nav-container">
+            <a href="#" class="logo">NV<span class="accent">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#projects">All Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content reveal">
+            <h1 class="hero-title">Engineering <span class="accent">Reliability</span> &amp; <span
+                    class="accent">Scalability</span>.</h1>
+            <p class="hero-subtitle">Hello, I'm Nilson Vieira. I'm a DevOps Engineer & Application Developer passionate
+                about Golang, Infrastructure as Code, and building robust systems.</p>
+            <div class="hero-actions">
+                <a href="#featured" class="btn btn-primary">View Features</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+
+            <div class="tech-stack" style="flex-wrap: wrap; max-width: 650px; margin: 0 auto; gap: 1.25rem;">
+                <!-- Restored Go Mascot & AWS -->
+                <i class="fa-brands fa-golang tooltip" title="Golang"></i>
+                <i class="fa-brands fa-aws tooltip" title="AWS"></i>
+
+                <!-- Added JS, Node, Next -->
+                <i class="devicon-javascript-plain tooltip" title="JavaScript"></i>
+                <i class="devicon-nodejs-plain-wordmark tooltip" title="Node.js"></i>
+                <i class="devicon-nextjs-plain tooltip" title="Next.js"></i>
+
+                <!-- DevOps Tools -->
+                <i class="devicon-kubernetes-plain tooltip" title="Kubernetes"></i>
+                <i class="devicon-docker-plain tooltip" title="Docker"></i>
+                <i class="devicon-argocd-plain tooltip" title="ArgoCD"></i>
+                <i class="devicon-jenkins-plain tooltip" title="Jenkins"></i>
+                <i class="devicon-gitlab-plain tooltip" title="GitLab"></i>
+                <i class="devicon-terraform-plain tooltip" title="Terraform"></i>
+                <i class="devicon-ansible-plain tooltip" title="Ansible"></i>
+                <i class="devicon-azure-plain tooltip" title="Azure"></i>
+                <i class="devicon-python-plain tooltip" title="Python"></i>
+                <i class="devicon-github-original tooltip" title="GitHub Actions"></i>
+                <i class="devicon-linux-plain tooltip" title="Linux"></i>
+
+                <!-- Observability & Data -->
+                <i class="devicon-prometheus-original tooltip" title="Prometheus"></i>
+                <i class="devicon-grafana-original tooltip" title="Grafana"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-container reveal">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text glassmorphism">
+                    <p>With a comprehensive background in <strong>DevOps Engineering</strong> and <strong>Application
+                            Development</strong>, I bridge the gap between infrastructure operations and software
+                        engineering.</p>
+                    <p>As an expert in <strong>Security</strong> and <strong>Observability</strong>, I engineer
+                        platforms that are not only scalable and fast, but heavily guarded against vulnerabilities and
+                        fully monitored. I specialize in Go (Golang) for crafting concurrent applications and maintain
+                        highly available infrastructure using Terraform, Ansible, Kubernetes, and cloud
+                        providers like AWS and Azure.</p>
+                    <p>Whether I'm writing Infrastructure as Code, deploying CI/CD pipelines, or building backend APIs,
+                        my focus is always on security, deep observability, efficiency, and automating the mundane.</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card glassmorphism">
+                        <i class="fa-solid fa-server stat-icon"></i>
+                        <h3>DevOps</h3>
+                        <p>Terraform, Ansible, Kubernetes</p>
+                    </div>
+                    <div class="stat-card glassmorphism">
+                        <i class="fa-solid fa-code stat-icon"></i>
+                        <h3>App Dev</h3>
+                        <p>Golang, Python, JS</p>
+                    </div>
+                    <div class="stat-card glassmorphism">
+                        <i class="fa-solid fa-shield-halved stat-icon"></i>
+                        <h3>Security</h3>
+                        <p>Vault, Keycloak, IAM</p>
+                    </div>
+                    <div class="stat-card glassmorphism">
+                        <i class="fa-solid fa-infinity stat-icon"></i>
+                        <h3>CI/CD</h3>
+                        <p>GitLab, GitHub Actions, ArgoCD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="featured" class="section">
+        <div class="section-container">
+            <h2 class="section-title reveal">Featured Work</h2>
+            <div class="featured-grid">
+
+                <!-- A2H Pockfy -->
+                <a href="http://pockfy.a2hsolutions.com.br" target="_blank" style="text-decoration: none;"
+                    class="project-card glassmorphism reveal">
+                    <div class="card-header">
+                        <div class="card-icons">
+                            <i class="fa-solid fa-lock private-icon" title="Private Repository"></i>
+                            <i class="fa-solid fa-arrow-up-right-from-square" style="color: var(--accent);"></i>
+                        </div>
+                        <h3 class="card-title">Pockfy System (A2H)</h3>
+                        <span class="badge badge-app">App Development</span>
+                        <span class="badge badge-devops">Go / React</span>
+                    </div>
+                    <div class="card-body">
+                        <p>A complete Personal Financial Control System. Built with a robust backend in
+                            <strong>Golang</strong> and a dynamic frontend in <strong>React with TypeScript</strong>.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- A2H Sindicalizei -->
+                <div class="project-card glassmorphism reveal" style="transition-delay: 0.1s;">
+                    <div class="card-header">
+                        <div class="card-icons">
+                            <i class="fa-solid fa-lock private-icon" title="Private Repository"></i>
+                            <i class="fa-solid fa-mobile-screen-button" style="color: var(--accent);"></i>
+                        </div>
+                        <h3 class="card-title">Sindicalizei (A2H)</h3>
+                        <span class="badge badge-app">App Development</span>
+                        <span class="badge badge-devops">Next.js / PWA</span>
+                    </div>
+                    <div class="card-body">
+                        <p>A specialized management and engagement platform designed for Labor Unions. Developed as a
+                            <strong>Progressive Web App (PWA)</strong> using <strong>Next.js</strong> for native-like
+                            mobile experiences.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- A2H Autopanel (SEFAZ) -->
+                <div class="project-card glassmorphism reveal" style="transition-delay: 0.2s;">
+                    <div class="card-header">
+                        <div class="card-icons">
+                            <i class="fa-solid fa-lock private-icon" title="Private Repository"></i>
+                            <i class="fa-solid fa-network-wired" style="color: var(--accent);"></i>
+                        </div>
+                        <h3 class="card-title">Autopanel HUB (A2H)</h3>
+                        <span class="badge badge-devops">DevOps / Arch</span>
+                    </div>
+                    <div class="card-body">
+                        <p>A centralized Services Hub developed for <strong>SEFAZ-MA</strong>. It automates end-to-end
+                            environment creation from Vcenter VMs and Kubernetes nodes to repos, pipelines, and Helm
+                            charts, integrating seamlessly with DAS approval flows.</p>
+                    </div>
+                </div>
+
+                <!-- Duplicate Detector -->
+                <a href="https://github.com/nilsonvieira/devops-go-duplicate-detector" target="_blank"
+                    style="text-decoration: none;" class="project-card glassmorphism reveal"
+                    style="transition-delay: 0.2s;">
+                    <div class="card-header">
+                        <div class="card-icons">
+                            <i class="fa-solid fa-globe public-icon" title="Public Repository"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <h3 class="card-title">Mac Disk Cleaner</h3>
+                        <span class="badge badge-devops">DevOps / Go</span>
+                    </div>
+                    <div class="card-body">
+                        <p><code>devops-go-duplicate-detector</code>: A Golang tool built to solve MacBook disk space
+                            limits by executing cleanups and removing duplicate items without relying on paid tools.</p>
+                    </div>
+                </a>
+
+                <!-- Ansible Wildfly Provisioner -->
+                <a href="https://github.com/nilsonvieira/devops-provisioner-droplet-ansible-wildfly" target="_blank"
+                    style="text-decoration: none;" class="project-card glassmorphism reveal">
+                    <div class="card-header">
+                        <div class="card-icons">
+                            <i class="fa-solid fa-lock private-icon" title="Private Repository"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <h3 class="card-title">Ansible Droplet Provisioner</h3>
+                        <span class="badge badge-devops">DevOps</span>
+                    </div>
+                    <div class="card-body">
+                        <p><code>devops-provisioner-droplet-ansible-wildfly</code>: An Ansible Playbook specifically
+                            created to provision and configure Wildfly on a Digital Ocean droplet.</p>
+                    </div>
+                </a>
+
+                <!-- Terraform Wildfly -->
+                <a href="https://github.com/nilsonvieira/devops-terraform-droplet-wildfly" target="_blank"
+                    style="text-decoration: none;" class="project-card glassmorphism reveal"
+                    style="transition-delay: 0.1s;">
+                    <div class="card-header">
+                        <div class="card-icons">
+                            <i class="fa-solid fa-lock private-icon" title="Private Repository"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <h3 class="card-title">Terraform Droplet IaC</h3>
+                        <span class="badge badge-devops">DevOps</span>
+                    </div>
+                    <div class="card-body">
+                        <p><code>devops-terraform-droplet-wildfly</code>: A Terraform project crafted to provision
+                            Digital Ocean droplets that come pre-configured with Wildfly.</p>
+                    </div>
+                </a>
+
+                <!-- Go Vault API -->
+                <a href="https://github.com/nilsonvieira/devops-go-vault-api" target="_blank"
+                    style="text-decoration: none;" class="project-card glassmorphism reveal"
+                    style="transition-delay: 0.2s;">
+                    <div class="card-header">
+                        <div class="card-icons">
+                            <i class="fa-solid fa-globe public-icon" title="Public Repository"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <h3 class="card-title">Vault Interface API</h3>
+                        <span class="badge badge-devops">Go / Security</span>
+                    </div>
+                    <div class="card-body">
+                        <p><code>devops-go-vault-api</code>: API for direct communication with Hashicorp Vault. Handles
+                            secrets migration, INI to JSON conversions, secret deletion, and more.</p>
+                    </div>
+                </a>
+
+                <!-- Workstation Setup -->
+                <a href="https://github.com/nilsonvieira/ansible-playbook-workstation-setup" target="_blank"
+                    style="text-decoration: none;" class="project-card glassmorphism reveal">
+                    <div class="card-header">
+                        <div class="card-icons">
+                            <i class="fa-solid fa-globe public-icon" title="Public Repository"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <h3 class="card-title">Workstation Automator</h3>
+                        <span class="badge badge-devops">DevOps</span>
+                    </div>
+                    <div class="card-body">
+                        <p><code>ansible-playbook-workstation-setup</code>: Ansible playbook that fully configures a
+                            formatted Linux machine for immediate work, bypassing manual app installation.</p>
+                    </div>
+                </a>
+
+                <!-- Go Archetype -->
+                <a href="https://github.com/nilsonvieira/devops-archetype-golang" target="_blank"
+                    style="text-decoration: none;" class="project-card glassmorphism reveal"
+                    style="transition-delay: 0.1s;">
+                    <div class="card-header">
+                        <div class="card-icons">
+                            <i class="fa-solid fa-globe public-icon" title="Public Repository"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <h3 class="card-title">Golang Archetype</h3>
+                        <span class="badge badge-app">App Development</span>
+                    </div>
+                    <div class="card-body">
+                        <p><code>devops-archetype-golang</code>: A standardized Golang archetype template meticulously
+                            structured according to the best market practices.</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- All Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-container reveal">
+            <h2 class="section-title">All Catalogued Projects</h2>
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="devops">DevOps</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+            </div>
+
+            <!-- This container will be populated by JavaScript -->
+            <div class="project-list" id="project-list-container">
+                <!-- JS populated list -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer glassmorphism">
+        <div class="footer-content">
+            <h2>Let's build something scalable.</h2>
+            <div class="social-links">
+                <a href="https://github.com/nilsonvieira" target="_blank" title="GitHub"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/nilsonvieira" target="_blank" title="LinkedIn"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2026 Nilson Vieira. Built with <i class="fa-solid fa-heart accent-text"></i> for GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
